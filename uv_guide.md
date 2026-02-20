@@ -60,6 +60,9 @@ uv sync
 
 ## III. Daily Workflow
 
+Install in edditable mode is a good way to keep things clean
+uv pip install -e .
+
 Activate environment:
 
 ```powershell
