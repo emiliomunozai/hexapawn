@@ -46,9 +46,18 @@ uv venv
 
 Activate it:
 
+
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
+
+if it dosent work try
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+then 
+.venv\Scripts\Activate.ps1
+
+
 
 Install dependencies (if `pyproject.toml` exists):
 
